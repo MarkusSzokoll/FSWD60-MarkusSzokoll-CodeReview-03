@@ -190,3 +190,11 @@ nav>ul>li>a:hover{
 	left: 30%;
 	top: 40%;
 }
+
+
+@media screen and (max-width: 500px){
+	nav{
+		width: 50%;
+		text-align: center;
+	}
+}
