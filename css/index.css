@@ -112,3 +112,81 @@ nav>ul>li>a:hover{
 	padding:  0px;
 	margin:  0px;
 }
+
+
+
+
+
+
+
+
+
+.inputForm{
+	width: 70%;
+	background-color: lightblue;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 2px 2px 2px, -2px -2px 2px;
+	border-radius:  2px;
+}
+
+.inputFormText{
+	width: 60%;
+	margin: 20px auto 0px;
+	text-align: center;
+}
+
+.inputFormForm{
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.inputFormForm input{
+	flex-basis: 40%;
+	height: 50px;
+	margin: 5px 0 25px 0;
+	outline: none;
+	background: none;
+	border: none;
+	border-bottom: 2px solid black;
+	padding-left: 5px;
+	font-size: 1.2em;
+}
+.inputFormForm select{
+	flex-basis: 40%;
+	height: 50px;
+	margin: 20px 0 0 0;
+	outline: none;
+}
+
+#ccountry{
+	font-size: 1.25em;
+	padding-left: 5px;
+}
+
+.moreTextInner{
+	flex-basis: 40%;
+	box-shadow: 1px 1px 2px, -1px -3px 1px;
+	padding-left: 3%;
+}
+
+.moreText{
+	width: 70%;
+	background-color: lightblue;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	position: relative;
+	transform: translateX(-50%);
+	box-shadow: 2px 2px 2px, -2px -2px 2px;
+	border-radius:  2px;
+	left: 30%;
+	top: 40%;
+}
