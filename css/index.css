@@ -4,6 +4,23 @@ header{
 	display: flex;
 	height: 100px;
 }
+main { background-image: 
+	url("../img/traffic-332857_1920.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	border:  0px;
+	padding:  0px;
+	margin:  0px;
+	display: flex;
+	flex-direction: column;
+}
+footer{
+	width: 100%;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
 #img1{
 	margin: auto auto auto 20px;
 }
@@ -91,3 +108,7 @@ nav>ul>li>a:hover{
 }
 
 
+#body_head{
+	padding:  0px;
+	margin:  0px;
+}
