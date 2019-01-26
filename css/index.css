@@ -32,11 +32,12 @@ nav>ul>li>a{
 	color: white;
 	padding:  0px;
 	margin:  0px;
-	padding-left:  20px;
+	padding-left:  10px;
+	padding-right:  10px;
 }
-nav>ul>li>a>.activeNav{
-	color:  yellow;
-}
+
+
+
 footer{
 	width: 100%;
 	background-color: black;
@@ -71,8 +72,22 @@ footer{
 	color: white;
 	margin:  0px;
 	padding:  0px;
-	padding-left:  20px;
+	padding-left:  10px;
+	padding-right:  10px;
 }
 .nav2>ul>li>a>.activeNav{
 	color: yellow; 
 }
+.nav2>ul>li>a:hover{
+	background-color: white;
+	color: black;
+}
+
+nav>ul>li>a>.activeNav{
+	color:  yellow;
+}
+nav>ul>li>a:hover{
+	background-color: black;
+}
+
+
